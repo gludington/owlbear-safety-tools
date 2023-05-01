@@ -1,0 +1,12 @@
+{
+  "name": "TTRPG Safety Tools",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "action": {
+    "title": "Safety Tools",
+    "icon": "/icon.svg",
+    "popover": "/",
+    "width": 300,
+    "height": 250
+  }
+}
