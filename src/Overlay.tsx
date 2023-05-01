@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import { useApp, useCards, usePlayers } from "./App";
-import { useEffect, useMemo, useState } from "react";
+import { useApp } from "./App";
+import { useMemo } from "react";
 
 const CardOverlay = ({ card }: { card: any }) => {
   

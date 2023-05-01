@@ -1,6 +1,6 @@
 import OBR from '@owlbear-rodeo/sdk';
 import { v4 as uuid } from 'uuid'
-import { status, statusKey, useApp, useCards, usePlayers } from './App';
+import { status, statusKey, useApp } from './App';
 
 const show = async (status: status) => {  
   const pid = await OBR.player.getId();
